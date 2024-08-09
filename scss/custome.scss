@@ -1,1 +1,47 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../fallenwing.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    position: relative;
+    z-index: 1;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 600px;
+    margin: auto;
+}
+.mainCont {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 2rem;
+    color: white;
+}
+button {
+    width: 100%; /* Make buttons expand to full width */
+}
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+}
+hr {
+    border-top: 1px solid #ccc;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+h1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.result input {
+    font-weight: bold;
+}
